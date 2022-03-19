@@ -1,0 +1,40 @@
+.modal {
+    position   : fixed;
+    z-index    : 1000;
+    left       : 0;
+    top        : 0;
+    height     : 100%;
+    width      : 100%;
+    overflow   : auto;
+    padding-top: 250px;
+}
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.modal-content {
+    margin            : auto;
+    width             : 350px;
+    background-color  : #E6E2FF;
+    border-radius     : 8px;
+    text-align        : center;
+    padding           : 15px 0;
+    box-shadow        : 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+    animation-name    : modalopen;
+    animation-duration: 1s;
+}
+
+@keyframes modalopen {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

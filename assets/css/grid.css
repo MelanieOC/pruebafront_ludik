@@ -1,0 +1,22 @@
+.container {
+    max-width  : 540px;
+    margin     : auto;
+    padding-top: 20px;
+}
+
+.row {
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.col-8 {
+    width: 66.6666%
+}
+
+.col-4 {
+    width: 33.3333%
+}
+
+.mt-2 {
+    margin-top: 20px;
+}

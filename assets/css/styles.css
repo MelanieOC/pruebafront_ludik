@@ -1,0 +1,62 @@
+input {
+    height       : 25px;
+    padding      : 5px;
+    border-radius: 5px;
+    width        : 80%;
+}
+
+.btn-play {
+    box-sizing     : border-box;
+    position       : relative;
+    cursor         : pointer;
+    outline        : none;
+    border         : none;
+    display        : inline-block;
+    white-space    : nowrap;
+    text-decoration: none;
+    vertical-align : baseline;
+    text-align     : center;
+    margin         : 0;
+    min-width      : 64px;
+    line-height    : 36px;
+    padding        : 0 16px;
+    border-radius  : 4px;
+}
+
+.currentPlay {
+    padding         : 10px;
+    border-radius   : 5px;
+    background-color: #dfdfe3;
+    margin-bottom   : 10px;
+}
+
+#board .cell {
+    background-color: #A5A5B6;
+    height          : 180px;
+    border          : 5px solid white;
+    box-sizing      : border-box;
+}
+
+.cell.empty {
+    cursor: pointer;
+}
+
+.cell.jugado {
+    padding: 10px;
+}
+
+#cell22 {
+    border-radius: 0 0 25px 0;
+}
+
+#cell00 {
+    border-radius: 25px 0 0 0;
+}
+
+#cell02 {
+    border-radius: 0 25px 0 0;
+}
+
+#cell20 {
+    border-radius: 0 0 0 25px;
+}
